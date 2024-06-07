@@ -1,0 +1,55 @@
+.bookshelfContainer {
+  text-align: center;
+}
+
+
+.bookContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width:70%;
+  margin:0 auto;
+  margin-top:20px;
+}
+.headerBookShelf{
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.progress{
+  position:absolute;
+  top:50%;
+  left:30%;
+}
+.bookInput{
+  border-radius: 5px;
+  width:75%;
+  height:22px;
+  font-size: 20px;
+}
+.bookInput:focus{
+  outline:none;
+}
+
+.bookCard{
+  border:1px solid;
+  display:flex;
+  width:200px;
+  height:180px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+
+}
+.addBtn{
+  background-color: green;
+  border-radius: 15px;
+  color:white;
+  height:30px;
+  border:none;
+  width:156px;
+  cursor:pointer;
+}
+.addBtn:active{
+  background-color: rgb(16, 73, 16);
+}
